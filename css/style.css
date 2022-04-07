@@ -700,6 +700,9 @@ footer a:hover {
         width: 50%;
         padding: 20px;
     }
+    .text-lg-end {
+        text-align: center;
+    }
 }
 @media screen and (max-width:768px) {
     .img__black {
@@ -715,6 +718,9 @@ footer a:hover {
         width: 70%;
         padding: 20px;
     }
+    .text-lg-end {
+        text-align: center;
+    }
 }
 @media screen and (max-width:576px) {
     .img__black {
@@ -729,5 +735,8 @@ footer a:hover {
     .clients__thumb ul li img {
         width: 90%;
         padding: 20px;
+    }
+    .text-lg-end {
+        text-align: center;
     }
 }
