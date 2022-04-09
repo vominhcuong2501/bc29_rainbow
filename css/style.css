@@ -133,10 +133,15 @@
     text-align: center;
 }
 .service__title h6 {
-    color:#fd4766;
-    font-weight: 600;
     margin-bottom: 10px;
     font-size: 18px;
+    background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #fd4766 79.69%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip : text;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 .service__title h2 {
     font-size: 50px;
@@ -192,10 +197,15 @@
     text-align: center;
 }
 .project__title>h6 {
-    color:#fd4766;
-    font-weight: 600;
     margin-bottom: 10px;
     font-size: 18px;
+    background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #fd4766 79.69%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip : text;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 .project__title>h2 {
     font-size: 50px;
@@ -299,10 +309,15 @@
     border-radius: 10px;
 }
 .about__title>h6 {
-    color:#fd4766;
-    font-weight: 600;
     margin-bottom: 10px;
     font-size: 18px;
+    background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #fd4766 79.69%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip : text;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 .about__title>h2 {
     font-size: 50px;
@@ -409,10 +424,15 @@
     padding: 100px 0;
 }
 .blog__title>h6 {
-    color:#fd4766;
-    font-weight: 600;
     margin-bottom: 10px;
     font-size: 18px;
+    background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #fd4766 79.69%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip : text;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 .blog__title>h2 {
     font-size: 50px;
@@ -517,10 +537,15 @@
     text-align: center;
 }
 .clients__title>h6 {
-    color:#fd4766;
-    font-weight: 600;
     margin-bottom: 10px;
     font-size: 18px;
+    background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #fd4766 79.69%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip : text;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 .clients__title>h2 {
     font-size: 50px;
@@ -669,9 +694,12 @@ footer {
     font-size: 20px;
     color: white;
     text-decoration: none;
+    border: 1px solid #fd4766;
+    transition: all 0.5s;
 }
 footer a:hover {
     text-decoration: none;
+    background-color: transparent;
     color: #fd4766;
 }
 .cd-top--is-visible { 
@@ -726,10 +754,10 @@ footer a:hover {
         width: 50%;
     }
     .carousel__text h1 {
-        font-size: 30px;
+        font-size: 50px;
     }
     .carousel__text p {
-        font-size: 13px;
+        font-size: 15px;
     }
     .clients__thumb ul li img {
         width: 90%;
